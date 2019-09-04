@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header_container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header_container .brand_image {
+  width: 30%;
+}
+
+.header_container li {
+  float: left;
+}
+
+.header_container li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header_container li a:hover {
+  background-color: #111;
+}
+
+.hero_container {
+  background: #41969c;
+  padding: 20px;
+  height: 500px;
+}
+
+/*
+The correct way to declare varaibles:
+
+snake case : header_container
+camel case: headerContainer
+strong case or capitalize: HeaderContaniner
+*/
