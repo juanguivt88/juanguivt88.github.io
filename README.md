@@ -13,3 +13,6 @@ Git commands
 - git add .
 - git commit -m "typing a message"
 - git push origin master
+
+Otras cosas
+==========
